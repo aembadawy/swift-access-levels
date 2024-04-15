@@ -16,7 +16,7 @@ fileprivate var filePrivateVar: String?
 ## Internal
 This is the default access level given when it's not specified. Accessible anywhere inside the current app module.
 ```
-var internalVar: String?
+var internalVar: String?  // implicitly internal
 ```
 
 ## Public
