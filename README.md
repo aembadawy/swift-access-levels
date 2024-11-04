@@ -20,7 +20,7 @@ var internalVar: String?  // implicitly internal
 ```
 
 ## Public
-Access granted to any source file from their defining module, and also in a source file from another module that imports the defining module. 
+Access granted to any source file from their defining module, and also any source file from another module that imports the defining module. 
 ```
 public class SomePublicClass {}
 public var somePublicVariable = 0
